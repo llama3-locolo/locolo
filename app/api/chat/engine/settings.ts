@@ -5,6 +5,7 @@ import {
   Gemini,
   GeminiEmbedding,
   OpenAI,
+  Groq,
   OpenAIEmbedding,
   Settings,
 } from "llamaindex";
@@ -25,6 +26,9 @@ export const initSettings = async () => {
   }
 
   switch (process.env.MODEL_PROVIDER) {
+    case "llama3":
+      initLlama3();
+      break;
     case "ollama":
       initOllama();
       break;
@@ -41,6 +45,17 @@ export const initSettings = async () => {
   Settings.chunkSize = CHUNK_SIZE;
   Settings.chunkOverlap = CHUNK_OVERLAP;
 };
+
+function initLlama3() {
+  Settings.llm = new Groq({apiKey: process.env.GROQ_API_KEY});
+  const embedModelMap: Record<string, string> = {
+    "all-MiniLM-L6-v2": "Xenova/all-MiniLM-L6-v2",
+    "all-mpnet-base-v2": "Xenova/all-mpnet-base-v2",
+  };
+  Settings.embedModel = new HuggingFaceEmbedding({
+    modelType: embedModelMap["all-MiniLM-L6-v2"],
+  });
+}
 
 function initOpenAI() {
   Settings.llm = new OpenAI({
