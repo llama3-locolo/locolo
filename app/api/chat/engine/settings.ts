@@ -47,7 +47,7 @@ export const initSettings = async () => {
 };
 
 function initLlama3() {
-  Settings.llm = new Groq({apiKey: process.env.GROQ_API_KEY});
+  Settings.llm = new Groq({model: "llama3-70b-8192", apiKey: process.env.GROQ_API_KEY});
   const embedModelMap: Record<string, string> = {
     "all-MiniLM-L6-v2": "Xenova/all-MiniLM-L6-v2",
     "all-mpnet-base-v2": "Xenova/all-mpnet-base-v2",
