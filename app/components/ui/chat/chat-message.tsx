@@ -115,7 +115,7 @@ export default function ChatMessage({
           onClick={() => copyToClipboard(chatMessage.content)}
           size="icon"
           variant="ghost"
-          className="h-8 w-8 opacity-0 group-hover:opacity-100"
+          className="h-8 md:w-8 opacity-0 group-hover:opacity-100 invisible md:visible w-0"
         >
           {isCopied ? (
             <Check className="h-4 w-4" />
