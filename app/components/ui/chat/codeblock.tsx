@@ -101,22 +101,35 @@ const CodeBlock: FC<Props> = memo(({ language, value }) => {
     const jsonData = JSON.parse(value);
     console.log(jsonData);
     return (
-      <a href={jsonData["URL"]} target="_blank" className={manrope.className}>
-        <div className="font-sans border bg-slate-50 border-[#FFA500] rounded-lg my-5 p-5 w-full transition hover:shadow-lg">
-          <div className="flex flex-col lg:flex-row text-wrap gap-3">
-            <div className="w-full lg:w-2/3">
-              <div className="text-xl mb-3 text-bold">{jsonData["Event Name"]}</div>
-              <div className="text-xs text-gray-500">{jsonData["Date and Time"]}</div>
-              <div className="text-xs text-gray-500 mb-5">{jsonData["Location"]}</div>
-              <div className="text-md">{jsonData["Description"]}</div>
+      <div className={`${manrope.className} my-5 flex flex-col lg:flex-row items-start gap-6 p-6 border bg-slate-50 border-[#FFA500] rounded-lg shadow-md`}>
+        <img alt={"Event Image"} src={jsonData["Image"]} className="w-full lg:max-w-[270px] max-h-[270px] my-auto mx-auto flex-shrink-0 rounded-lg object-scale-down" />
+        <div className="flex flex-col lg:flex-row text-wrap gap-3">
+          <div className="flex-1 space-y-4">
+            <div>
+              <h3 className="text-2xl font-bold">{jsonData["Event Name"]}</h3>
+              <p className="text-gray-500 dark:text-gray-400">Hosted by {jsonData["Organizer"]}</p>
             </div>
-            <div className="w-full lg:w-1/3">
-              {/* i am using img instead of Image because I don't want to set a height and width */}
-              <img alt={"Data"} src={jsonData["Image"]} />
+            <p className="text-gray-700 dark:text-gray-300">{jsonData["Description"]}</p>
+            <div className="grid grid-cols-2 gap-4">
+              <div>
+                <p className="text-gray-500 dark:text-gray-400 font-medium">Date & Time</p>
+                <p className="text-gray-700 dark:text-gray-300">{jsonData["Date and Time"]}</p>
+              </div>
+              <div>
+                <p className="text-gray-500 dark:text-gray-400 font-medium">Location</p>
+                <p className="text-gray-700 dark:text-gray-300">{jsonData["Location"]}</p>
+              </div>
             </div>
+            <a
+              className="inline-flex items-center justify-center rounded-md bg-gray-900 px-4 py-2 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
+              href={jsonData["URL"]}
+              target="_blank"
+            >
+              Learn more
+            </a>
           </div>
         </div>
-      </a>
+      </div>
     );
   } catch (e) {
     return (
