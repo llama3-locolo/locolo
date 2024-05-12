@@ -9,6 +9,7 @@ import { coldarkDark } from "react-syntax-highlighter/dist/cjs/styles/prism";
 import { Button } from "../button";
 import { useCopyToClipboard } from "./use-copy-to-clipboard";
 import Image from "next/image";
+import { Manrope } from "next/font/google";
 
 // TODO: Remove this when @type/react-syntax-highlighter is updated
 const SyntaxHighlighter = Prism as unknown as FC<SyntaxHighlighterProps>;
@@ -48,6 +49,8 @@ export const programmingLanguages: languageMap = {
   css: ".css",
   // add more file extensions here, make sure the key is same as language prop in CodeBlock.tsx component
 };
+
+const manrope = Manrope({ subsets: ["latin"] });
 
 export const generateRandomString = (length: number, lowercase = false) => {
   const chars = "ABCDEFGHJKLMNPQRSTUVWXY3456789"; // excluding similar looking characters like Z, 2, I, 1, O, 0
@@ -98,8 +101,8 @@ const CodeBlock: FC<Props> = memo(({ language, value }) => {
     const jsonData = JSON.parse(value);
     console.log(jsonData);
     return (
-      <a href={jsonData["URL"]} target="_blank">
-        <div className="font-serif border bg-slate-50 border-[#FFA500] rounded-lg my-5 p-5 w-full transition hover:shadow-lg">
+      <a href={jsonData["URL"]} target="_blank" className={manrope.className}>
+        <div className="font-sans border bg-slate-50 border-[#FFA500] rounded-lg my-5 p-5 w-full transition hover:shadow-lg">
           <div className="flex flex-col lg:flex-row text-wrap gap-3">
             <div className="w-full lg:w-2/3">
               <div className="text-xl mb-3 text-bold">{jsonData["Event Name"]}</div>
