@@ -35,9 +35,11 @@ function getAnnotationData<T extends AnnotationData>(
 function ChatMessageContent({
   message,
   isLoading,
+  showAnnotations = false,
 }: {
   message: Message;
   isLoading: boolean;
+  showAnnotations?: boolean;
 }) {
   const annotations = message.annotations as MessageAnnotation[] | undefined;
   if (!annotations?.length) return <Markdown content={message.content} />;
@@ -67,13 +69,13 @@ function ChatMessageContent({
     {
       order: -2,
       component:
-        eventData.length > 0 ? (
+        eventData.length > 0 && showAnnotations ? (
           <ChatEvents isLoading={isLoading} data={eventData} />
         ) : null,
     },
     {
       order: -1,
-      component: toolData[0] ? <ChatTools data={toolData[0]} /> : null,
+      component: toolData[0] && showAnnotations ? <ChatTools data={toolData[0]} /> : null,
     },
     {
       order: 0,
@@ -81,7 +83,7 @@ function ChatMessageContent({
     },
     {
       order: 1,
-      component: sourceData[0] ? <ChatSources data={sourceData[0]} /> : null,
+      component: sourceData[0] && showAnnotations ? <ChatSources data={sourceData[0]} /> : null,
     },
   ];
 
