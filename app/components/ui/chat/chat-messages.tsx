@@ -63,11 +63,15 @@ export default function ChatMessages(
         {props.messages.map((m, i) => {
           const isLoadingMessage = i === messageLength - 1 && props.isLoading;
           return (
-            <ChatMessage
-              key={m.id}
-              chatMessage={m}
-              isLoading={isLoadingMessage}
-            />
+            isLoadingMessage && m.role != "user"
+              ? <div className="flex justify-center items-center pt-10">
+                <Loader2 className="h-4 w-4 animate-spin" />
+              </div>
+              : <ChatMessage
+                key={m.id}
+                chatMessage={m}
+                isLoading={isLoadingMessage}
+              />
           );
         })}
         {isPending && (
