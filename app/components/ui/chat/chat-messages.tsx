@@ -5,17 +5,21 @@ import ChatActions from "./chat-actions";
 import ChatMessage from "./chat-message";
 import { ChatHandler } from "./chat.interface";
 import Image from "next/image";
+import { Chip } from "../chip";
 
 const WelcomeMessage = () => {
   return (
     <div className="w-full h-full grid place-content-center">
       <div className="flex flex-col gap-2">
-        <Image src="/locolo.png" width={200} height={200} alt="Locolo" className="mx-auto rounded-xl shadow mb-2" />
+        <Image src="/locolo.png" width={200} height={200} alt="Locolo" className="mx-auto rounded-2xl shadow mb-2" />
         <div className="text-center text-2xl text-gray-600">
           Hi, I&apos;m Locolo
         </div>
-        <div>
-          Ask me something like <span className="border bg-gray-50 border-gray-100 shadow-sm rounded-full p-2">Date nights for jazz couples</span>
+        <div className="mt-3 text-center">
+          Ask me something like&nbsp;&nbsp;<Chip value={"Meeting new people"} />
+        </div>
+        <div className="mt-5 text-center">
+          <Chip value={"Romantic Jazz Night"} />&nbsp;&nbsp;<Chip value={"Techno Rave Party"} />
         </div>
       </div>
     </div>
