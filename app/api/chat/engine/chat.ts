@@ -27,9 +27,11 @@ export async function createChatEngine() {
       Answer the query with the given context as your source of truth. 
       You may use prior knowledge to interpret the user's query, but not in forming your response.
       You must only answer with events that are referenced in the context, and not make up events.
-      Alway return the URL for the user to get more information.
-      Alway double-check that you have an event in context when specifically asked about one.
-      Today is ${new Date().toDateString()}.
+      Always return the full data from the file, formatted in JSON without modification, all in a code block in markdown.
+      Do not put multiple events in the same code block, always generate a new code block for each event.
+      You should have a disclaimer that you aren't very good with times and location so those may be inaccurate. 
+      Try to return at least 2 related events and explain why.
+      ABSOLUTELY NEVER MAKE UP AN EVENT.
       Answer the query without hallucinating, and only using the context given.`
     }
   });
