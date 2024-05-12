@@ -1,4 +1,4 @@
-import { useState } from "react";
+// import { useState } from "react";
 import { Button } from "../button";
 // import FileUploader from "../file-uploader";
 import { Input } from "../input";
@@ -18,7 +18,7 @@ export default function ChatInput(
     multiModal?: boolean;
   },
 ) {
-  const [imageUrl, setImageUrl] = useState<string | null>(null);
+  // const [imageUrl, setImageUrl] = useState<string | null>(null);
 
   const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     // if (imageUrl) {
