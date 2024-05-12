@@ -7,7 +7,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center gap-10 py-10 px-10 background-gradient">
       <Header />
       <ChatSection />
-      <Image alt="QR Code" src="/qrcode.svg" height={180} width={180} />
+      <Image alt="QR Code" src="/qrcode.svg" height={180} width={180} className="invisible lg:visible h-0 lg:h-fit" />
     </main>
   );
 }
