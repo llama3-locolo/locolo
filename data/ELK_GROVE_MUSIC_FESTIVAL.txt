@@ -1,0 +1,7 @@
+Event Name: ELK GROVE MUSIC FESTIVAL
+Description: Join us for the Elk Grove Music Festival Featuring a lineup of rock, country, classic rock, and cover bands.
+Date and Time: Starts on May 18, 2024, at 12:00 PM and ends on May 18, 2024, at 08:00 PM (Pacific Time).
+Location: 9615 Railroad Street, Elk Grove, CA 95624
+URL: https://www.eventbrite.com/e/elk-grove-music-festival-tickets-866017189727
+Image: https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F723354839%2F963992428723%2F1%2Foriginal.20240319-175316?w=1000&auto=format%2Ccompress&q=75&sharp=10&rect=305%2C0%2C1950%2C975&s=2a3ff1fd9e1857b08e94cb1b36562f6a
+Organizer: Meraki Logic, Inc.

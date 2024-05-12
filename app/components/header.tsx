@@ -15,10 +15,10 @@ export default function Header() {
           <span>Built by LlamaIndex</span>
           <Image
             className="rounded-xl"
-            src="/llama.png"
-            alt="Llama Logo"
-            width={40}
-            height={40}
+            src="/locolo.png"
+            alt="Locolo Logo"
+            width={45}
+            height={45}
             priority
           />
         </a>

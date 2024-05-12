@@ -1,0 +1,7 @@
+Event Name: Stockton Taste of Jazz Festival
+Description: Taste of Jazz
+Date and Time: Starts on June 01, 2024, at 11:00 AM and ends on June 01, 2024, at 07:00 PM (Pacific Time).
+Location: 221 North Center Street, Stockton, CA 95202
+URL: https://www.eventbrite.com/e/stockton-taste-of-jazz-festival-tickets-725499036147
+Image: https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F721654569%2F1217901869733%2F1%2Foriginal.20240317-215058?w=1000&auto=format%2Ccompress&q=75&sharp=10&rect=48%2C145%2C1016%2C508&s=2b4246d7d9aa27dc7018f0bc0fa723ec
+Organizer: Norcal Events

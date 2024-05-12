@@ -1,0 +1,7 @@
+Event Name: RecordBarSF 'Cocktails and live DJ'
+Description: RecordBarSF presents
+Date and Time: Starts on June 01, 2024, at 10:00 PM and ends on June 02, 2024, at 12:30 AM (Pacific Time).
+Location: 177 Eddy Street, San Francisco, CA 94102
+URL: https://www.eventbrite.com/e/recordbarsf-cocktails-and-live-dj-tickets-856498168077
+Image: https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F711412129%2F8546126033%2F1%2Foriginal.20240304-234728?w=1000&auto=format%2Ccompress&q=75&sharp=10&rect=326%2C0%2C1922%2C961&s=47800de2c4a71e7c3e6e7a6bde83a08b
+Organizer: RecordBarSF

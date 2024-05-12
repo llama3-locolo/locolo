@@ -1,0 +1,7 @@
+Event Name: WEST OAKLAND SOUND SERIES
+Description: a weekly new music and experimental sound series every Sunday in Oakland
+Date and Time: Starts on May 12, 2024, at 07:00 PM and ends on May 12, 2024, at 10:00 PM (Pacific Time).
+Location: 2201 Poplar Street, Oakland, CA 94607
+URL: https://www.eventbrite.com/e/west-oakland-sound-series-tickets-805516841557
+Image: https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F696486499%2F236244067985%2F1%2Foriginal.20240213-205053?w=1000&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C190%2C4032%2C2016&s=d3eaddccd3c7d64b00c9d3b75ffe04d8
+Organizer: sfSound

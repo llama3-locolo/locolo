@@ -1,0 +1,7 @@
+Event Name: GRUM (LIVE)
+Description: Audio presents GRUM's first ever Live show in San Francisco on June 1st.
+Date and Time: Starts on June 01, 2024, at 09:30 PM and ends on June 02, 2024, at 02:00 AM (Pacific Time).
+Location: 316 11th Street, San Francisco, CA 94103
+URL: https://www.eventbrite.com/e/grum-live-tickets-845359030617
+Image: https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F700798129%2F8507892257%2F1%2Foriginal.20240220-043200?w=1000&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=fc4716166c9aae854523af224b40e15d
+Organizer: Audio San Francisco

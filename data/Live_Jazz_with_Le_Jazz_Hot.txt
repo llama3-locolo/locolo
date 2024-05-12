@@ -1,0 +1,7 @@
+Event Name: Live Jazz with Le Jazz Hot
+Description: A subset of the famous Hot Club San Francisco has residency here, playing their Django Reinhardt style gypsy jazz tunes during HH & dinner.
+Date and Time: Starts on May 15, 2024, at 05:00 PM and ends on May 15, 2024, at 08:00 PM (Pacific Time).
+Location: 2800 California Street ##101, San Francisco, CA 94115
+URL: https://www.eventbrite.com/e/live-jazz-with-le-jazz-hot-tickets-903412700707
+Image: https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F764923249%2F157945662096%2F1%2Foriginal.20240510-204351?w=1000&auto=format%2Ccompress&q=75&sharp=10&rect=1%2C825%2C3738%2C1869&s=7f4448879c4beb80d2b9979bb8616514
+Organizer: Scopo Divino

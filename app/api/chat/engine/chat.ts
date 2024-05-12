@@ -27,6 +27,8 @@ export async function createChatEngine() {
       Answer the query with the given context as your source of truth. 
       You may use prior knowledge to interpret the user's query, but not in forming your response.
       You must only answer with events that are referenced in the context, and not make up events.
+      Alway return the URL for the user to get more information.
+      Alway double-check that you have an event in context when specifically asked about one.
       Today is ${new Date().toDateString()}.
       Answer the query without hallucinating, and only using the context given.`
     }
