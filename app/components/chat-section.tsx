@@ -26,6 +26,7 @@ export default function ChatSection() {
 
   return (
     <div className="space-y-4 max-w-5xl w-full">
+      <h1 className="text-4xl">Locolo</h1>
       <ChatMessages
         messages={messages}
         isLoading={isLoading}

@@ -12,15 +12,6 @@ export default function Header() {
           href="https://www.llamaindex.ai/"
           className="flex items-center justify-center font-nunito text-lg font-bold gap-2"
         >
-          <span>Built by LlamaIndex</span>
-          <Image
-            className="rounded-xl"
-            src="/locolo.png"
-            alt="Locolo Logo"
-            width={45}
-            height={45}
-            priority
-          />
         </a>
       </div>
     </div>
