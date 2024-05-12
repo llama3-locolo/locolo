@@ -1,0 +1,462 @@
+[
+    {
+      "id": "868843764087",
+      "crawled_at": "2024-05-12T02:40:58.368Z",
+      "url": "https://www.eventbrite.com/e/cosmitorium-katholik-die-mad-bog-body-tickets-868843764087",
+      "startDate": "2024-05-11T20:00:00-07:00",
+      "endDate": "2024-05-11T23:00:00-07:00",
+      "name": "Cosmitorium, Katholik, Die Mad, Bog Body",
+      "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F725670829%2F308989365325%2F1%2Foriginal.20240322-044318?w=1000&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2550%2C1275&s=a5c4e3e01c6994c82fb5e141b835b080",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "offers": [
+        {
+          "availabilityEnds": "2024-05-12T03:00:00Z",
+          "priceCurrency": "USD",
+          "url": "https://www.eventbrite.com/e/cosmitorium-katholik-die-mad-bog-body-tickets-868843764087",
+          "lowPrice": 12,
+          "highPrice": 12,
+          "@type": "AggregateOffer",
+          "availabilityStarts": "2024-03-21T07:00:00Z",
+          "validFrom": "2024-03-21T07:00:00Z",
+          "availability": "InStock"
+        },
+        {
+          "name": "General Admission",
+          "priceCurrency": "USD",
+          "url": "https://www.eventbrite.com/e/cosmitorium-katholik-die-mad-bog-body-tickets-868843764087",
+          "price": 15.72,
+          "@type": "Offer",
+          "availability": "InStock"
+        }
+      ],
+      "location": {
+        "address": {
+          "addressCountry": "US",
+          "addressLocality": "Petaluma",
+          "addressRegion": "CA",
+          "streetAddress": "201 Washington St., Petaluma, CA",
+          "postalCode": "",
+          "@type": "PostalAddress"
+        },
+        "@type": "Place",
+        "name": "The Phoenix Theater"
+      },
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "@context": "http://schema.org",
+      "organizer": {
+        "url": "https://www.eventbrite.com/o/phoenix-theater-26319831111",
+        "@type": "Organization",
+        "name": "Phoenix Theater"
+      },
+      "@type": "Event",
+      "description": "Cosmitorium, Katholik, Die Mad and Bog Body at the Phoenix!"
+    },
+    {
+      "id": "865934592677",
+      "crawled_at": "2024-05-12T02:40:59.317Z",
+      "url": "https://www.eventbrite.com/e/concert-by-t-m-krishna-hn-bhaskar-b-sivaraman-tickets-865934592677",
+      "startDate": "2024-05-12T17:00:00-07:00",
+      "endDate": "2024-05-12T20:00:00-07:00",
+      "name": "Concert by T M Krishna, HN Bhaskar, B Sivaraman",
+      "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F723857949%2F349632980941%2F1%2Foriginal.20240320-072331?w=1000&auto=format%2Ccompress&q=75&sharp=10&rect=11%2C0%2C776%2C388&s=c500dcddc85988d3909f5488d2ab1311",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "offers": [
+        {
+          "availabilityEnds": "2024-05-12T23:00:00Z",
+          "priceCurrency": "USD",
+          "url": "https://www.eventbrite.com/e/concert-by-t-m-krishna-hn-bhaskar-b-sivaraman-tickets-865934592677",
+          "lowPrice": 20,
+          "highPrice": 100,
+          "@type": "AggregateOffer",
+          "availabilityStarts": "2024-03-18T07:00:00Z",
+          "validFrom": "2024-03-18T07:00:00Z",
+          "availability": "SoldOut"
+        },
+        {
+          "inventoryLevel": 0,
+          "name": "First Two Rows",
+          "priceCurrency": "USD",
+          "url": "https://www.eventbrite.com/e/concert-by-t-m-krishna-hn-bhaskar-b-sivaraman-tickets-865934592677",
+          "price": 106.55,
+          "@type": "Offer",
+          "availability": "SoldOut"
+        },
+        {
+          "inventoryLevel": 0,
+          "name": "Third and fourth rows",
+          "priceCurrency": "USD",
+          "url": "https://www.eventbrite.com/e/concert-by-t-m-krishna-hn-bhaskar-b-sivaraman-tickets-865934592677",
+          "price": 53.77,
+          "@type": "Offer",
+          "availability": "SoldOut"
+        },
+        {
+          "inventoryLevel": 0,
+          "name": "General Admission",
+          "priceCurrency": "USD",
+          "url": "https://www.eventbrite.com/e/concert-by-t-m-krishna-hn-bhaskar-b-sivaraman-tickets-865934592677",
+          "price": 32.66,
+          "@type": "Offer",
+          "availability": "SoldOut"
+        },
+        {
+          "inventoryLevel": 0,
+          "name": "Stanford student",
+          "priceCurrency": "USD",
+          "url": "https://www.eventbrite.com/e/concert-by-t-m-krishna-hn-bhaskar-b-sivaraman-tickets-865934592677",
+          "price": 22.1,
+          "@type": "Offer",
+          "availability": "SoldOut"
+        }
+      ],
+      "location": {
+        "address": {
+          "addressCountry": "US",
+          "addressLocality": "Stanford",
+          "addressRegion": "CA",
+          "streetAddress": "498 Santa Teresa Street, Stanford, CA 94305",
+          "postalCode": "94305",
+          "@type": "PostalAddress"
+        },
+        "@type": "Place",
+        "name": "Tresidder Oak Lounge"
+      },
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "@context": "http://schema.org",
+      "organizer": {
+        "url": "https://www.eventbrite.com/o/spicmacay-81023964173",
+        "@type": "Organization",
+        "name": "Spicmacay"
+      },
+      "@type": "Event",
+      "description": "UPDATE (5/6): Unfortunately, no more tickets are available. Please don't email us for tickets. Student tickets only for Stanford students."
+    },
+    {
+      "id": "886097610807",
+      "crawled_at": "2024-05-12T02:40:59.829Z",
+      "url": "https://www.eventbrite.com/e/social-saturdays-ft-dannie-riel-ashley-mehta-at-opal-nightclub-21-tickets-886097610807",
+      "startDate": "2024-05-11T21:00:00-07:00",
+      "endDate": "2024-05-12T01:30:00-07:00",
+      "name": "SOCIAL SATURDAYS ft DANNIE RIEL + ASHLEY MEHTA at OPAL NIGHTCLUB  | 21+",
+      "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F764320809%2F560512603023%2F1%2Foriginal.20240510-041525?w=1000&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C395%2C1080%2C540&s=02b2b6d5a0f0ed02e95322620300414d",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "offers": [
+        {
+          "availabilityEnds": "2024-05-12T02:30:00Z",
+          "priceCurrency": "USD",
+          "url": "https://www.eventbrite.com/e/social-saturdays-ft-dannie-riel-ashley-mehta-at-opal-nightclub-21-tickets-886097610807",
+          "lowPrice": 0,
+          "highPrice": 20,
+          "@type": "AggregateOffer",
+          "availabilityStarts": "2024-04-17T07:30:00Z",
+          "validFrom": "2024-04-17T07:30:00Z",
+          "availability": "SoldOut"
+        },
+        {
+          "inventoryLevel": 0,
+          "name": "General Admission FREE before 10:30P",
+          "priceCurrency": "USD",
+          "url": "https://www.eventbrite.com/e/social-saturdays-ft-dannie-riel-ashley-mehta-at-opal-nightclub-21-tickets-886097610807",
+          "price": 0,
+          "@type": "Offer",
+          "availability": "SoldOut"
+        },
+        {
+          "inventoryLevel": 0,
+          "name": "VIP Tickets (Express Entry until 12:45am)",
+          "priceCurrency": "USD",
+          "url": "https://www.eventbrite.com/e/social-saturdays-ft-dannie-riel-ashley-mehta-at-opal-nightclub-21-tickets-886097610807",
+          "price": 23.18,
+          "@type": "Offer",
+          "availability": "SoldOut"
+        }
+      ],
+      "location": {
+        "address": {
+          "addressCountry": "US",
+          "addressLocality": "Mountain View",
+          "addressRegion": "CA",
+          "streetAddress": "251 Castro Street, Mountain View, CA 94041",
+          "postalCode": "94041",
+          "@type": "PostalAddress"
+        },
+        "@type": "Place",
+        "name": "Opal Social Club"
+      },
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "@context": "http://schema.org",
+      "organizer": {
+        "url": "https://www.eventbrite.com/o/opal-nightclub-45678213823",
+        "@type": "Organization",
+        "name": "Opal Nightclub"
+      },
+      "@type": "SocialEvent",
+      "description": "Join us for \"Social Saturdays\" ft DANNIE RIEL + ASHLEY MEHTA"
+    },
+    {
+      "id": "891872483607",
+      "crawled_at": "2024-05-12T02:41:00.846Z",
+      "url": "https://www.eventbrite.com/e/patton-leatha-band-featuring-duane-patton-tickets-891872483607",
+      "startDate": "2024-05-11T21:00:00-07:00",
+      "endDate": "2024-05-11T23:59:00-07:00",
+      "name": "Patton Leatha Band Featuring Duane Patton",
+      "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F753424549%2F535845531809%2F1%2Foriginal.20240426-191813?w=1000&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=90db8db9c1c33a950271577fd1d03f87",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "offers": [
+        {
+          "availabilityEnds": "2024-05-11T18:59:00Z",
+          "priceCurrency": "USD",
+          "url": "https://www.eventbrite.com/e/patton-leatha-band-featuring-duane-patton-tickets-891872483607",
+          "lowPrice": 20,
+          "highPrice": 20,
+          "@type": "AggregateOffer",
+          "availabilityStarts": "2024-04-26T07:00:00Z",
+          "validFrom": "2024-04-26T07:00:00Z",
+          "availability": "SoldOut"
+        },
+        {
+          "inventoryLevel": 0,
+          "name": "General Admission",
+          "priceCurrency": "USD",
+          "url": "https://www.eventbrite.com/e/patton-leatha-band-featuring-duane-patton-tickets-891872483607",
+          "price": 23.18,
+          "@type": "Offer",
+          "availability": "SoldOut"
+        }
+      ],
+      "location": {
+        "address": {
+          "addressCountry": "US",
+          "addressLocality": "Antioch",
+          "addressRegion": "CA",
+          "streetAddress": "4605 Golf Course Road, Antioch, CA 94531",
+          "postalCode": "94531",
+          "@type": "PostalAddress"
+        },
+        "@type": "Place",
+        "name": "Tailgaters Sports Bar &amp; Grill"
+      },
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "@context": "http://schema.org",
+      "organizer": {
+        "url": "https://www.eventbrite.com/o/tailgaters-sports-bar-grill-antioch-57787922533",
+        "description": "Your local hometown sports bar and grill dedicated to giving you great product and the greatest time with or without the sports.",
+        "@type": "Organization",
+        "name": "Tailgaters Sports Bar & Grill Antioch"
+      },
+      "@type": "Event",
+      "description": "Come rock out with the Patton Leatha Band and special guest Duane Patton - it's gonna be a night to remember!"
+    },
+    {
+      "id": "889869663117",
+      "crawled_at": "2024-05-12T02:41:01.133Z",
+      "url": "https://www.eventbrite.com/e/an-evening-with-pride-joy-the-bay-areas-favorite-party-band-tickets-889869663117",
+      "startDate": "2024-05-11T18:00:00-07:00",
+      "endDate": "2024-05-11T22:00:00-07:00",
+      "name": "An Evening with Pride & Joy (The Bay Area's Favorite Party Band!)",
+      "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F750832759%2F2042647255833%2F1%2Foriginal.20240423-225050?w=1000&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C9%2C300%2C150&s=e3466e6b4af01afb0d79eecca54f1390",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "offers": [
+        {
+          "availabilityEnds": "2024-05-12T01:00:00Z",
+          "priceCurrency": "USD",
+          "url": "https://www.eventbrite.com/e/an-evening-with-pride-joy-the-bay-areas-favorite-party-band-tickets-889869663117",
+          "lowPrice": 20,
+          "highPrice": 20,
+          "@type": "AggregateOffer",
+          "availabilityStarts": "2024-04-24T01:00:00Z",
+          "validFrom": "2024-04-24T01:00:00Z",
+          "availability": "SoldOut"
+        },
+        {
+          "inventoryLevel": 0,
+          "name": "General Admission",
+          "priceCurrency": "USD",
+          "url": "https://www.eventbrite.com/e/an-evening-with-pride-joy-the-bay-areas-favorite-party-band-tickets-889869663117",
+          "price": 20,
+          "@type": "Offer",
+          "availability": "SoldOut"
+        }
+      ],
+      "location": {
+        "address": {
+          "addressCountry": "US",
+          "addressLocality": "Penngrove",
+          "addressRegion": "CA",
+          "streetAddress": "10005 Main Street, Penngrove, CA 94951",
+          "postalCode": "94951",
+          "@type": "PostalAddress"
+        },
+        "@type": "Place",
+        "name": "Penngrove Pub"
+      },
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "@context": "http://schema.org",
+      "organizer": {
+        "url": "https://www.eventbrite.com/o/penngrove-pub-presents-80237769063",
+        "description": "L﻿ive Music all Summer long hosted by Penngrove Pub Presents, with our new outdoor patio and brand new soundsytem for Live Music, we hope to see you this summer!",
+        "@type": "Organization",
+        "name": "Penngrove Pub Presents"
+      },
+      "@type": "Event",
+      "description": "During its many years of phenomenal success, Pride & Joy has remained the most popular party band on the Bay Area music scene! Dont miss it"
+    },
+    {
+      "id": "868128374337",
+      "crawled_at": "2024-05-12T02:41:02.526Z",
+      "url": "https://www.eventbrite.com/e/mothers-day-celebration-tickets-868128374337",
+      "startDate": "2024-05-11T19:00:00-07:00",
+      "endDate": "2024-05-12T00:00:00-07:00",
+      "name": "Mother's Day Celebration",
+      "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F724808439%2F1335180293%2F1%2Foriginal.20240321-061658?w=1000&auto=format%2Ccompress&q=75&sharp=10&rect=1%2C24%2C1178%2C589&s=8bcfc668de078be0409f02567920c481",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "offers": [
+        {
+          "availabilityEnds": "2024-05-10T18:10:00Z",
+          "priceCurrency": "USD",
+          "url": "https://www.eventbrite.com/e/mothers-day-celebration-tickets-868128374337",
+          "lowPrice": 24,
+          "highPrice": 24,
+          "@type": "AggregateOffer",
+          "availabilityStarts": "2024-03-04T08:00:00Z",
+          "validFrom": "2024-03-04T08:00:00Z",
+          "availability": "SoldOut"
+        },
+        {
+          "inventoryLevel": 0,
+          "name": "General Admission",
+          "priceCurrency": "USD",
+          "url": "https://www.eventbrite.com/e/mothers-day-celebration-tickets-868128374337",
+          "price": 27.45,
+          "@type": "Offer",
+          "availability": "SoldOut"
+        }
+      ],
+      "location": {
+        "address": {
+          "addressCountry": "US",
+          "addressLocality": "Milpitas",
+          "addressRegion": "CA",
+          "streetAddress": "579 South Main Street, Milpitas, CA 95035",
+          "postalCode": "95035",
+          "@type": "PostalAddress"
+        },
+        "@type": "Place",
+        "name": "579 S Main St"
+      },
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "@context": "http://schema.org",
+      "organizer": {
+        "url": "https://www.eventbrite.com/o/tortilla-soup-music-inc-408-828-3229-5366132817",
+        "@type": "Organization",
+        "name": "Tortilla Soup Music Inc (408) 828-3229"
+      },
+      "@type": "Event",
+      "description": "TICKETS WILL BE SOLD AT THE DOOR $24 (CASH PREFERRED)"
+    },
+    {
+      "id": "878853563667",
+      "crawled_at": "2024-05-12T02:41:04.269Z",
+      "url": "https://www.eventbrite.com/e/ohgeesy-performing-live-at-pure-nightclub-tickets-878853563667",
+      "startDate": "2024-05-11T22:00:00-07:00",
+      "endDate": "2024-05-12T02:00:00-07:00",
+      "name": "OHGEESY PERFORMING LIVE AT PURE NIGHTCLUB",
+      "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F739099019%2F415494829081%2F1%2Foriginal.20240409-081827?w=1000&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=627f7b093163f1dd0afb13099b3c1902",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "offers": [
+        {
+          "availabilityEnds": "2024-05-12T05:00:00Z",
+          "priceCurrency": "USD",
+          "url": "https://www.eventbrite.com/e/ohgeesy-performing-live-at-pure-nightclub-tickets-878853563667",
+          "lowPrice": 40,
+          "highPrice": 40,
+          "@type": "AggregateOffer",
+          "availabilityStarts": "2024-04-30T02:00:00Z",
+          "validFrom": "2024-04-30T02:00:00Z",
+          "availability": "InStock"
+        },
+        {
+          "name": "General Admission 2",
+          "priceCurrency": "USD",
+          "url": "https://www.eventbrite.com/e/ohgeesy-performing-live-at-pure-nightclub-tickets-878853563667",
+          "price": 44.52,
+          "@type": "Offer",
+          "availability": "InStock"
+        }
+      ],
+      "location": {
+        "address": {
+          "addressCountry": "US",
+          "addressLocality": "Sunnyvale",
+          "addressRegion": "CA",
+          "streetAddress": "146 South Murphy Avenue, Sunnyvale, CA 94086",
+          "postalCode": "94086",
+          "@type": "PostalAddress"
+        },
+        "@type": "Place",
+        "name": "Pure Nightclub"
+      },
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "@context": "http://schema.org",
+      "organizer": {
+        "url": "https://www.eventbrite.com/o/umbrella-entertainment-70103754073",
+        "description": "Our company specializes in bringing top-tier talent-driven events to cities across America. We're all about creating safe, unforgettable experiences that leave lasting memories. Join us for electrifying festivals, hilarious comedy nights, and more – all meticulously planned for your enjoyment. Come, be part of the magic!",
+        "@type": "Organization",
+        "name": "Umbrella Entertainment"
+      },
+      "@type": "Event",
+      "description": "OhGeesy is back at Pure Night Club!"
+    },
+    {
+      "id": "894023376987",
+      "crawled_at": "2024-05-12T02:41:09.421Z",
+      "url": "https://www.eventbrite.com/e/mechanical-bull-and-live-band-at-the-grand-saturday-51124-tickets-894023376987",
+      "startDate": "2024-05-11T22:00:00-07:00",
+      "endDate": "2024-05-12T02:00:00-07:00",
+      "name": "Mechanical bull and Live band  at The Grand Saturday 5.11.24",
+      "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F755365379%2F39787784442%2F1%2Foriginal.20240429-224109?w=1000&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C720%2C360&s=906d7016da0f2428b209d7c791c2a4f6",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "offers": [
+        {
+          "availabilityEnds": "2024-05-12T03:00:00Z",
+          "priceCurrency": "USD",
+          "url": "https://www.eventbrite.com/e/mechanical-bull-and-live-band-at-the-grand-saturday-51124-tickets-894023376987",
+          "lowPrice": 0,
+          "highPrice": 0,
+          "@type": "AggregateOffer",
+          "availabilityStarts": "2024-04-08T07:00:00Z",
+          "validFrom": "2024-04-08T07:00:00Z",
+          "availability": "InStock"
+        },
+        {
+          "name": "Discounted Admission Before 11PM Ticket",
+          "priceCurrency": "USD",
+          "url": "https://www.eventbrite.com/e/mechanical-bull-and-live-band-at-the-grand-saturday-51124-tickets-894023376987",
+          "price": 0,
+          "@type": "Offer",
+          "availability": "InStock"
+        }
+      ],
+      "location": {
+        "address": {
+          "addressCountry": "US",
+          "addressLocality": "San Francisco",
+          "addressRegion": "CA",
+          "streetAddress": "520 4th Street, San Francisco, CA 94107",
+          "postalCode": "94107",
+          "@type": "PostalAddress"
+        },
+        "@type": "Place",
+        "name": "The Grand Nightclub"
+      },
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "@context": "http://schema.org",
+      "organizer": {
+        "url": "https://www.eventbrite.com/o/the-grand-nightclub-15178817128",
+        "@type": "Organization",
+        "name": "The Grand Nightclub"
+      },
+      "@type": "SocialEvent",
+      "description": "NOCHE BELICONA! Performing Live : Estrellas De La Bahia"
+    }
+  ]
