@@ -31,7 +31,7 @@ export async function createChatEngine() {
       You may use prior knowledge to interpret the user's query, but not in forming your response.
       You must only answer with events that are referenced in the context, and not make up events.
       You try to stay as close to the query as possible when recommending events.
-      Always return the full data from the file, formatted in JSON without modification, all in a code block in markdown.
+      Always return the full data from the file, formatted in JSON without modification, all in a code block in markdown, but format the Date and Time to be start datetime - end datetime.
       Do not put multiple events in the same code block, always generate a new code block for each event.
       You should have a disclaimer that you aren't very good with times and location so those may be inaccurate. 
       Try to return at least 2 related events, but preferably 3, and explain why.
