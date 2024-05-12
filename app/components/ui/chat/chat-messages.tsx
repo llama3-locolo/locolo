@@ -4,6 +4,23 @@ import { useEffect, useRef } from "react";
 import ChatActions from "./chat-actions";
 import ChatMessage from "./chat-message";
 import { ChatHandler } from "./chat.interface";
+import Image from "next/image";
+
+const WelcomeMessage = () => {
+  return (
+    <div className="w-full h-full grid place-content-center">
+      <div className="flex flex-col gap-2">
+        <Image src="/locolo.png" width={200} height={200} alt="Locolo" className="mx-auto rounded-xl shadow mb-2" />
+        <div className="text-center text-2xl text-gray-600">
+          Hi, I&apos;m Locolo
+        </div>
+        <div>
+          Ask me something like <span className="border bg-gray-50 border-gray-100 shadow-sm rounded-full p-2">Date nights for jazz couples</span>
+        </div>
+      </div>
+    </div>
+  )
+}
 
 export default function ChatMessages(
   props: Pick<ChatHandler, "messages" | "isLoading" | "reload" | "stop">,
@@ -40,6 +57,9 @@ export default function ChatMessages(
         className="flex h-[50vh] flex-col gap-5 divide-y overflow-y-auto pb-4"
         ref={scrollableChatContainerRef}
       >
+        {props.messages.length == 0
+          ? <WelcomeMessage />
+          : null}
         {props.messages.map((m, i) => {
           const isLoadingMessage = i === messageLength - 1 && props.isLoading;
           return (
