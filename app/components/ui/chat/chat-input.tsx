@@ -62,7 +62,7 @@ export default function ChatInput(
       {/* {imageUrl && (
         <UploadImagePreview url={imageUrl} onRemove={onRemovePreviewImage} />
       )} */}
-      <div className="flex w-full items-start justify-between gap-4 ">
+      <div className="flex flex-col md:flex-row w-full items-start justify-between gap-4 ">
         <Input
           autoFocus
           name="message"
@@ -75,7 +75,7 @@ export default function ChatInput(
           onFileUpload={handleUploadFile}
           onFileError={props.onFileError}
         /> */}
-        <Button type="submit" disabled={props.isLoading}>
+        <Button type="submit" className="w-full md:w-fit" disabled={props.isLoading}>
           Send message
         </Button>
       </div>

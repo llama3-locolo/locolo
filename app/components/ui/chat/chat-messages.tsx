@@ -9,17 +9,14 @@ import { Chip } from "../chip";
 
 const WelcomeMessage = () => {
   return (
-    <div className="w-full h-full grid place-content-center">
-      <div className="flex flex-col gap-2">
+    <div className="w-full h-full">
+      <div className="flex flex-col gap-2 mt-5">
         <Image src="/locolo.png" width={200} height={200} alt="Locolo" className="mx-auto rounded-2xl shadow mb-2" />
         <div className="text-center text-2xl text-gray-600">
           Hi, I&apos;m Locolo
         </div>
-        <div className="mt-3 text-center">
-          Ask me something like&nbsp;&nbsp;<Chip value={"Meeting new people"} />
-        </div>
-        <div className="mt-5 text-center">
-          <Chip value={"Romantic Jazz Night"} />&nbsp;&nbsp;<Chip value={"Techno Rave Party"} />
+        <div className="mt-3 text-center max-w-[500px] mx-auto">
+          Ask me something like&nbsp;&nbsp;<Chip value={"Meeting new people"} /><Chip value={"Romantic Jazz Night"} /><Chip value={"Techno Rave Party"} />
         </div>
       </div>
     </div>

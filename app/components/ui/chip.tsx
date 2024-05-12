@@ -6,7 +6,7 @@ import { useCopyToClipboard } from "./chat/use-copy-to-clipboard";
 export function Chip({ value }: { value: string }) {
   const { isCopied, copyToClipboard } = useCopyToClipboard({ timeout: 2000 });
   return (
-    <span className="border bg-gray-50 border-gray-100 shadow-sm rounded-full p-2.5">
+    <div className="inline-block border bg-gray-50 border-gray-100 shadow-sm rounded-full m-1 px-3.5 py-2.5">
       {value}
       <Button
         onClick={() => copyToClipboard(value)}
@@ -20,6 +20,6 @@ export function Chip({ value }: { value: string }) {
           <Copy className="h-4 w-4" />
         )}
       </Button>
-    </span>
+    </div>
   )
 }
