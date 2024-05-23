@@ -16,4 +16,6 @@ Organizer: GBH
 
 ```
 
-You should copy all files from `events` folder to `data` folder before running `npm run generate`. 
+You should copy all files from `events` folder to `data` folder before running `npm run generate`.
+
+Note: when converting new events, you need clean up `events` folder before you run the script.
